@@ -1,24 +1,40 @@
-function seulesayHiToHeadphonedRoommate(string) {
-    if(string.toUpperCase()){
-        console.log('OUI, EN EFFET !');
-    }
-
-    if(string.toLowerCase()){
-        console.log('Je ne vous entends pas !');
-    }
-
-    if(string = "Dînons ensemble !"){
-        console.log("J'adorerais !");
-    }
-
-    return string.toUpperCase();
+function inverser(chaine){
+    console.log(chaine);
 }
 
-function shout(string) {
-    return string.toUpperCase();
-  }
-
-function whisper(string) {
-    return string.toLowerCase();
+function famille(string) {
+    if(string == "justin"){
+        console.log("**** La famille de Justin Repnior *****");
+        console.log("Epouse : Bazile Jona");
+        console.log("1e fils : Justin Gama Kingsley");
+        console.log("2e fils : Justin Maxim Kingdji");        
+    }else{
+        console.log("Vous n'etes pas de la famille de Justin, qui es tu?");
+    }
+   return string;
 }
-  
+
+// function facto(n){
+    
+//     if(n > 0){
+//         console.log("Bon");
+//     }
+
+//     if(n === 0){
+//         console.log("1");
+//     }
+
+// }
+
+// function facto(n) {    
+//     if (n === 0) {
+//         return 1;
+//     }
+//     let result = 1;
+//     for (let i = 1; i <= n; i++) {
+//         result *= i;
+//     }
+//     return result;
+// }
+
+// module.exports = facto;  // Export de la fonction pour l'utiliser dans les tests
